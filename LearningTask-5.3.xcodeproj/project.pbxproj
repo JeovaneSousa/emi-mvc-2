@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		58C4969227DD2BD000DCA879 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C4969127DD2BD000DCA879 /* AppDelegate.swift */; };
 		58C4969427DD2BD000DCA879 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C4969327DD2BD000DCA879 /* SceneDelegate.swift */; };
-		58C4969627DD2BD000DCA879 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C4969527DD2BD000DCA879 /* ViewController.swift */; };
+		58C4969627DD2BD000DCA879 /* ContadorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C4969527DD2BD000DCA879 /* ContadorViewController.swift */; };
 		58C4969927DD2BD000DCA879 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C4969727DD2BD000DCA879 /* Main.storyboard */; };
 		58C4969B27DD2BD300DCA879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58C4969A27DD2BD300DCA879 /* Assets.xcassets */; };
 		58C4969E27DD2BD300DCA879 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58C4969C27DD2BD300DCA879 /* LaunchScreen.storyboard */; };
+		D9F6D1922918172300E55395 /* Contador.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F6D1912918172300E55395 /* Contador.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		58C4968E27DD2BD000DCA879 /* LearningTask-5.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LearningTask-5.3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58C4969127DD2BD000DCA879 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58C4969327DD2BD000DCA879 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		58C4969527DD2BD000DCA879 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58C4969527DD2BD000DCA879 /* ContadorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContadorViewController.swift; sourceTree = "<group>"; };
 		58C4969827DD2BD000DCA879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58C4969A27DD2BD300DCA879 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58C4969D27DD2BD300DCA879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58C4969F27DD2BD300DCA879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F6D1912918172300E55395 /* Contador.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contador.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				58DD48AA27DF5A37004912C7 /* Supportive Files */,
 				58C4969A27DD2BD300DCA879 /* Assets.xcassets */,
+				D9F6D1902918160A00E55395 /* Model */,
 				58DD48A927DF59FD004912C7 /* View */,
 				58DD48AB27DF5A5D004912C7 /* Scenes */,
 			);
@@ -86,9 +89,17 @@
 		58DD48AB27DF5A5D004912C7 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				58C4969527DD2BD000DCA879 /* ViewController.swift */,
+				58C4969527DD2BD000DCA879 /* ContadorViewController.swift */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		D9F6D1902918160A00E55395 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D9F6D1912918172300E55395 /* Contador.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,9 +173,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58C4969627DD2BD000DCA879 /* ViewController.swift in Sources */,
+				58C4969627DD2BD000DCA879 /* ContadorViewController.swift in Sources */,
 				58C4969227DD2BD000DCA879 /* AppDelegate.swift in Sources */,
 				58C4969427DD2BD000DCA879 /* SceneDelegate.swift in Sources */,
+				D9F6D1922918172300E55395 /* Contador.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
